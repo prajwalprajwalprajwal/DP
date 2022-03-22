@@ -1,0 +1,55 @@
+// We have no. of dimensions of money like 2rs, 5rs, 10rs etc.... And we have TARGET. We have infinte coins. We have to tell all possibilites 
+//of different dimensions of coins which give the sum of target.
+
+Ex - 2rs, 1rs, 5rs
+      Target - 5
+      ans = 11111, 1112, 221, 5...
+//.........................................................................................................................
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+void coin(int arr[], int n, int t,int idx, int sf, string asf)
+{
+    if(idx==n)
+    {
+        if(sf==t)
+        {
+            cout<<asf<<endl;
+        }
+        return;
+    }
+    
+    if(sf<t)
+    { 
+        
+        coin(arr, n,t, idx,sf+arr[idx],asf+to_string(arr[idx]));
+    }
+    else
+    {
+        coin(arr, n,t, idx+1,sf+arr[idx],asf+to_string(arr[idx]));
+    }
+    
+    
+        coin(arr, n,t, idx+1,sf,asf);
+    
+}
+
+
+int main()
+{
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    int t;
+    cin>>t;
+    string ans;
+    coin(arr,n,t,0,0,ans);
+}
+
