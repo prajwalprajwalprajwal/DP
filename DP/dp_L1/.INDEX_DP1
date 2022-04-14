@@ -1,0 +1,28 @@
+a. SIMPLE - 
+         1. Fibonacci  - https://github.com/prajwalprajwalprajwal/RecursiveThinking/blob/main/DP/dp_L1/3.%20minimum%20no.%20of%20steps%20in%20the%20variable%20stair%20case%20path
+         2. climb stairs with 1,2,3 jumps - https://github.com/prajwalprajwalprajwal/RecursiveThinking/blob/main/DP/dp_L1/1.%20fibonacci%20series%20(Memoization)
+         3. Minimum no of jumps to reach at final - https://github.com/prajwalprajwalprajwal/RecursiveThinking/blob/main/DP/dp_L1/2.%20stair%20case(1%2C2%2C3)%20(Memoization))
+       
+
+b. LEVEL AND OPTION -
+        1. Target sum subset - https://github.com/prajwalprajwalprajwal/RecursiveThinking/tree/main/DP/dp_L1/target%20sum%20subset
+        2. Coin changes - https://github.com/prajwalprajwalprajwal/RecursiveThinking/tree/main/DP/dp_L1/Coin%20changes
+        3. 0-1 knapsack - 
+        4. Unbounded knapsack - 
+
+
+c. FILL PARTICULAR ELEMENT OF 2-D ARRAY, WITH THE SUGGESTIONS OF ITS ADJACENTS ELEMENTS - 
+        1. Gold mine - https://github.com/prajwalprajwalprajwal/RecursiveThinking/tree/main/DP/dp_L1/Goldmine%20problem
+        2. Minimum cost in maze traversal - 
+
+
+
+d. DECISION TAKEN WITH THE HELP OF LAST 'x' ELEMENTS - 
+        1. Count Binary - 
+        2. Arrange buildings - 
+        3. Count encoding - 
+        4. A+B+C 
+        5. paint house
+        6. Paint house many colour
+        7. paint fence -
+        8. Maximum sum of non adjacent elements - 
