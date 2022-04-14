@@ -18,7 +18,7 @@ c. FILL PARTICULAR ELEMENT OF 2-D ARRAY, WITH THE SUGGESTIONS OF ITS ADJACENTS E
 
 
 d. DECISION TAKEN WITH THE HELP OF LAST 'x' ELEMENTS - 
-        1. Count Binary - 
+        1. Count Binary strings - https://github.com/prajwalprajwalprajwal/RecursiveThinking/tree/main/DP/dp_L1/count%20binary%20strings
         2. Arrange buildings - 
         3. Count encoding - 
         4. A+B+C 
