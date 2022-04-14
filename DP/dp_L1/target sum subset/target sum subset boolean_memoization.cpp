@@ -34,7 +34,7 @@ public class Main{
             return false;
         }
         
-        if(target>0 && strgs[idx][target]!=null)
+        if(target>0 && strgs[idx][target]!=false)
         {
             return strgs[idx][target];
         }
