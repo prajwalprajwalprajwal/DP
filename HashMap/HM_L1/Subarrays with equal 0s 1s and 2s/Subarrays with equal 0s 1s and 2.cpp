@@ -1,4 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/equal-0-1-and-23208/1/
+//11th april - ss
+
 //Find subarrays, which have equal no. Of 0,1 and 2s.
 //The approach is - Suppose at any point of time, if no. Of 0s,1s and 2s are x,y and z. And after some time
                                 //If the no. Of 0s, 1s and 2s all are increased same time, let say 'a'. i.e x+a,y+a,z+a. Then                                                                                                                                                                        that subarray is said to be as equal no. Of 0s,1s and 2s in it.
