@@ -1,5 +1,5 @@
 //https://practice.geeksforgeeks.org/problems/equal-0-1-and-23208/1/#
-
+//11th april - ss
 
 	//1. Make variable ans=0.
 
