@@ -1,6 +1,28 @@
 //https://leetcode.com/problems/minimum-window-substring/
-// 
+// Question is - We have two string - S1 --> long string  
+//                                                               S2 -->  target string
 
+// Select the min. Substring (which contain other unwanted elements), which meetup our target string.
+
+// Input: s = "ADOBECODEBANC", t = "ABC"
+// Output: "BANC"
+// Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+
+
+
+
+// Approach -  1. create hashmap for target string i.e map2.
+// 	2. travel the whole long string s1...
+// 	3. add the new elements to the long string hashmap i.e map1 (Acquire strategy).
+// 	4.  check whether map1== map2
+// 	- If yes, then count the freq. Of map1. If it is greater then previous one, then placed it as curr_min.
+// 	 - start releasing the elements from  the starting of the current substring, till the substring become in valid(map1!=map2).
+// 	And check while relasing the elements, if its size is lesser than update it.
+// If no, then continue with the acquire strategy.
+
+        
+        
+        //...........................................
 #include<bits/stdc++.h>
 using namespace std;
 
